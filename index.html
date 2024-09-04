@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+
+    <title>Hello there ! 👋🏻</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">R V B</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="line"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#education" class="nav-link">Education</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#awards" class="nav-link">Awards</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Rishabh Vinay Bhagat</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Creative Web Developer focused on building eye-catching, easy-to-use websites that look great
+                            and work well.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn"><a href="#contact" class="nav-link">Get in touch</a></button>
+                        <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+                    </div>
+                    <div class="social_icons">
+                        <a href="https://www.instagram.com/rishabhb2801" target="_blank"><img
+                                src="assets/images/Instagram.svg" width="30" height="30" />
+                        </a>
+                        <a href="https://ca.linkedin.com/in/rishabh-bhagat-350a58121" target="_blank"><img
+                                src="assets/images/linkedin.svg" width="30" height="30" />
+                        </a>
+                        <a href="https://www.x.com/rishabhb2801" target="_blank"><img src="assets/images/X.svg"
+                                width="30" height="30" />
+                        </a>
+                        <a href="https://github.com/rishabhbhagat2801" target="_blank"><img
+                                src="assets/images/github.svg" width="30" height="30" />
+                        </a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/images/main.png" alt="avatar">
+                    </div>
+                </div>
+
+            </section>
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My Introduction</h3>
+                            <p>Hello! I'm, a passionate Full Stack Developer currently studying at Lambton College in
+                                Toronto. My journey in software development has been both exciting and fulfilling, as I
+                                dive deep into creating dynamic and responsive web applications.
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span><i class="fab fa-html5"></i> HTML</span>
+                                <span><i class="fab fa-css3-alt"></i> CSS</span>
+                                <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                                <span><i class="fab fa-js"></i> JavaScript</span>
+                                <span><i class="fab fa-vuejs"></i> Vue</span>
+                                <span><i class="fab fa-react"></i> React</span>
+                                <span><i class="fab fa-angular"></i> Angular</span>
+                            </div>
+
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Backend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span><i class="fab fa-node"></i> Node.js</span>
+                                <span><i class="fab fa-java"></i> JAVA</span>
+                                <span><i class="fab fa-python"></i> Python</span>
+                                <span><i class="fab fa-php"></i> PHP</span>
+                                <span><i class="fab fa-cuttlefish"></i> C++</span>
+                                <span><i class="fab fa-csharp"></i> C#</span>
+                            </div>
+
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Database</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span><i class="fas fa-database"></i> MongoDB</span>
+                                <span><i class="fas fa-database"></i> MySQL</span>
+                                <span><i class="fas fa-database"></i> PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- Education BOX ---------------- -->
+            <section class="education-box" id="education">
+                <div class="top-header">
+                    <h1>Education</h1>
+                </div>
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3>Lambton College in Toronto</h3>
+                        <p>Postgraduate in Full Stack Software Development</p>
+                        <p>2023 - 2025</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Parul University, India</h3>
+                        <p>Bachelors in Computer Science and Engineering</p>
+                        <p>2018 - 2022</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>PARGS, India</h3>
+                        <p>2016 - 2018</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>KV Airforce Station 3, India</h3>
+                        <p>2010 - 2016</p>
+                    </div>
+                    <!-- Add more education items as needed -->
+                </div>
+            </section>
+
+            <section class="section" id="awards">
+                <div class="top-header">
+                    <h1>Awards & Achievements</h1>
+                </div>
+                <div class="awards-container">
+                    <div class="award-item">
+                        <div class="award-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="award-info">
+                            <h3>Summer 2023 Dean's Honour List</h3>
+                            <p>Lambton College, 2023</p>
+                        </div>
+                    </div>
+                    <div class="award-item">
+                        <div class="award-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="award-info">
+                            <h3>Summer 2024 Dean's Honour List</h3>
+                            <p>Lambton College, 2024</p>
+                        </div>
+                    </div>
+                    <!-- Add more award items as needed -->
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <img src="assets/images/HR.svg" width="60" height="60" />
+                        <h3>TalentSphere</h3>
+                        <label>HR Management System</label>
+                    </div>
+                    <div class="project-box">
+                        <img src="assets/images/sneakers.svg" width="60" height="60" />
+                        <h3>Xzist</h3>
+                        <label>Sneaker website</label>
+                    </div>
+                    <div class="project-box">
+                        <img src="assets/images/Stream.svg" width="60" height="60" />
+                        <h3>Showbox</h3>
+                        <label>Streaming Platform</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Contact Me <i class="fas fa-envelope"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: rishabhbhagat2801@gmail.com</p><br>
+
+                            <p><i class="uil uil-linkedin-alt"></i> Linkedin: <a
+                                    href="https://ca.linkedin.com/in/rishabh-bhagat-350a58121">Rishabh Vinay
+                                    Bhagat</a></a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <!-- <p>Rishabh Vinay Bhagat .</p> -->
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#education">Education</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#awards">Awards</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a href="https://www.instagram.com/rishabhb2801" target="_blank"><img src="assets/images/Instagram.svg"
+                        width="30" height="30" />
+                </a>
+                <a href="https://ca.linkedin.com/in/rishabh-bhagat-350a58121" target="_blank"><img
+                        src="assets/images/linkedin.svg" width="30" height="30" />
+                </a>
+                <a href="https://www.x.com/rishabhb2801" target="_blank"><img src="assets/images/X.svg" width="30"
+                        height="30" />
+                </a>
+                <a href="https://github.com/rishabhbhagat2801" target="_blank"><img src="assets/images/github.svg"
+                        width="30" height="30" />
+                </a>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Rishabh Vinay Bhagat</a> - All rights
+                    reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
